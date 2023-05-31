@@ -24,6 +24,8 @@ public class User {
     private UUID userId;
 
     @Column(unique = true)
+    private String handle;
+
     private String username;
 
     @Column
