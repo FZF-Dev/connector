@@ -7,7 +7,7 @@ import Login from "./pages/login/Login.tsx";
 import Register from "./pages/register/Register.tsx";
 import UserProfile from "./pages/user_profile/UserProfile.tsx";
 import PageNotFound from "./pages/error_pages/PageNotFound.tsx";
-import NavBar from "./components/NavBar.tsx";
+import NavBar from "./components/navbar/NavBar.tsx";
 
 const router = createBrowserRouter([
     {
@@ -41,5 +41,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
       <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 );
